@@ -1,16 +1,39 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive **Todo List Application** built using **React.js, JavaScript, HTML, and CSS**. This project helps users manage daily tasks by allowing them to add, delete, and mark tasks as completed while storing data using local storage.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add new tasks
+* Delete tasks
+* Mark tasks as completed
+* Filter tasks (All / Completed / Pending)
+* Local storage support for persistent data
+* Clean and responsive UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
 
-## Expanding the Oxlint configuration
+## Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* React Components
+* useState and useEffect Hooks
+* Event Handling
+* Conditional Rendering
+* Dynamic UI Updates
+* Local Storage Integration
+
+## Run Locally
+
+```bash
+npm install
+npm start
+```
+
+## Project Goal
+
+To practice frontend development concepts and build a task management application using React fundamentals.
